@@ -1,0 +1,28 @@
+{
+    "name": "ZLS",
+    "id": "zls",
+    "version": "1.0.0",
+    "description": "The Zig Language Server (ZLS) provides IDE features for Zig.",
+    "documentationURL": "https://github.com/zigtools/zls",
+    "keywords": [
+        "zls",
+        "zig",
+        "language server",
+        "ide"
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers-extra/features/zig"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "0.13.0"
+            ],
+            "default": "0.13.0",
+            "description": "Specify the ZLS version to ensure compatibility with your installed Zig compiler version."
+        }
+    }
+}
