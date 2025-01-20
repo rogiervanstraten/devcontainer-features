@@ -1,0 +1,30 @@
+{
+    "name": "AWS Vault",
+    "id": "aws-vault",
+    "version": "1.0.0",
+    "description": "AWS Vault securely stores and accesses AWS credentials in a development environment.",
+    "documentationURL": "https://github.com/99designs/aws-vault",
+    "keywords": [
+        "aws-vault",
+        "aws-cli",
+        "aws",
+        "credentials",
+        "security",
+        "ide"
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/aws-cli:1"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "7.2.0"
+            ],
+            "default": "latest",
+            "description": "The version of AWS Vault to install."
+        }
+    }
+}
