@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 VERSION=${VERSION:-"latest"}
+ARCHITECTURE=${ARCHITECTURE:-"linux-amd64"}
 INSTALL_DIR="/usr/local/lib/aws-vault"
 REQUIRED_PACKAGES=(ca-certificates curl)
-ARCHITECTURE="linux-amd64"
 BIN_NAME="aws-vault"
 
 set -e
