@@ -4,7 +4,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 VERSION=${VERSION:-"latest"}
 INSTALL_DIR="/usr/local/lib/novops"
-REQUIRED_PACKAGES=(ca-certificates curl xz-utils tar build-essential)
+REQUIRED_PACKAGES=(ca-certificates curl unzip)
 BIN_NAME="novops"
 
 function detect_arch() {
