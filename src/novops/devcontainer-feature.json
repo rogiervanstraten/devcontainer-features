@@ -2,15 +2,13 @@
     "name": "Novops",
     "id": "novops",
     "version": "1.0.0",
-    "description": "Novops, the universal secret and configuration manager for development, applications and CI.",
+    "description": "The universal secret and configuration manager for development, applications and CI.",
     "documentationURL": "https://github.com/PierreBeucher/novops",
     "keywords": [
-        "teller",
-        "payments",
+        "novops",
         "cli",
-        "finance",
-        "banking",
-        "developer"
+        "developer",
+        "secret management"
     ],
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"

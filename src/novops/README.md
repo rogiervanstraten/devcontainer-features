@@ -1,13 +1,13 @@
 
-# AWS Vault (aws-vault)
+# Novops (novops)
 
-AWS Vault securely stores and accesses AWS credentials in a development environment.
+The universal secret and configuration manager for development, applications and CI.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/rogiervanstraten/devcontainer-features/aws-vault:1": {}
+    "ghcr.io/rogiervanstraten/devcontainer-features/novops:1": {}
 }
 ```
 
@@ -15,11 +15,10 @@ AWS Vault securely stores and accesses AWS credentials in a development environm
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | The version of AWS Vault to install. | string | latest |
-| arch | The architecture to install. | string | linux-amd64 |
+| version | The version of Novops to install. | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rogiervanstraten/devcontainer-features/blob/main/src/aws-vault/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rogiervanstraten/devcontainer-features/blob/main/src/novops/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
