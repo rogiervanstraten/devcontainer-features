@@ -15,6 +15,7 @@ jobs:
         features:
           - zls
           - aws-vault
+          - novops
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -36,6 +37,7 @@ jobs:
         features:
           - zls
           - aws-vault
+          - novops
     steps:
       - uses: actions/checkout@v4
 
